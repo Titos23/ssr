@@ -233,9 +233,9 @@ def solve_fair_tournament_scheduling(n):
     # MULTI-OBJECTIVE FUNCTION
     
     # Weights for each fairness criterion
-    alpha = 2.0  # Weight for consecutive home/away games (Criteria 2)
+    alpha = 3.0  # Weight for consecutive home/away games (Criteria 2)
     beta = 3.0   # Weight for strength-weighted inequality (Criteria 1)
-    gamma = 1.0  # Weight for pattern homogeneity between players (Criteria 3)
+    gamma = 3.0  # Weight for pattern homogeneity between players (Criteria 3)
     
     # Heavy penalty for 3+ consecutive same venues if applicable
     delta = 5.0 if n > 4 else 0
