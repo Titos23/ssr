@@ -1,0 +1,198 @@
+===== TOURNAMENT METRICS FOR 4 PLAYERS =====
+Computation Time: 0.36 seconds
+Objective Value: 4.50000
+
+----- FAIRNESS SUMMARY -----
+Maximum Consecutive Sequences: 1
+Home Distribution Fairness (max diff in home games): 1
+
+No player has 3+ consecutive home or away games - good alternation!
+
+----- PLAYER METRICS -----
+Player   Home Games   Away Games   Pattern Consecutive
+------------------------------------------------
+1        1            2            HAA  1
+2        2            1            HAH  0
+3        1            2            AHA  0
+4        2            1            AHH  1
+
+----- TOURNAMENT SCHEDULE -----
+Round    Home     Away
+------------------------
+1        1        3
+1        2        4
+2        3        2
+2        4        1
+3        2        1
+3        4        3
+
+NOTE: Metrics updated because new compute time is better than previous best.
+===== TOURNAMENT METRICS FOR 6 PLAYERS =====
+Computation Time: 16.45 seconds
+Objective Value: 4.50000
+
+----- FAIRNESS SUMMARY -----
+Maximum Consecutive Sequences: 1
+Home Distribution Fairness (max diff in home games): 1
+
+No player has 3+ consecutive home or away games - good alternation!
+
+----- PLAYER METRICS -----
+Player   Home Games   Away Games   Pattern Consecutive
+--------------------------------------------------
+1        2            3            AAHAH  1
+2        2            3            AHAAH  1
+3        3            2            HAHHA  1
+4        3            2            HHAHA  1
+5        2            3            AHAHA  0
+6        3            2            HAHAH  0
+
+----- TOURNAMENT SCHEDULE -----
+Round    Home     Away
+------------------------
+1        3        2
+1        4        5
+1        6        1
+2        2        1
+2        4        3
+2        5        6
+3        1        4
+3        3        5
+3        6        2
+4        3        6
+4        4        2
+4        5        1
+5        1        3
+5        2        5
+5        6        4
+
+NOTE: Metrics updated because new compute time is better than previous best.
+===== TOURNAMENT METRICS FOR 8 PLAYERS =====
+Computation Time: 300.14 seconds
+Objective Value: 4.50000
+
+----- FAIRNESS SUMMARY -----
+Maximum Consecutive Sequences: 1
+Home Distribution Fairness (max diff in home games): 1
+
+No player has 3+ consecutive home or away games - good alternation!
+
+----- PLAYER METRICS -----
+Player   Home Games   Away Games   Pattern  Consecutive
+----------------------------------------------------
+1        3            4            AHAHAHA  0
+2        4            3            HAHAHAH  0
+3        3            4            AAHAHAH  1
+4        4            3            HHAHAHA  1
+5        3            4            AHAAHAH  1
+6        4            3            HAHHAHA  1
+7        4            3            HAHAHHA  1
+8        3            4            AHAHAAH  1
+
+----- TOURNAMENT SCHEDULE -----
+Round    Home     Away
+------------------------
+1        2        3
+1        4        1
+1        6        8
+1        7        5
+2        1        6
+2        4        7
+2        5        3
+2        8        2
+3        2        5
+3        3        1
+3        6        4
+3        7        8
+4        1        2
+4        4        3
+4        6        7
+4        8        5
+5        2        4
+5        3        8
+5        5        6
+5        7        1
+6        1        8
+6        4        5
+6        6        2
+6        7        3
+7        2        7
+7        3        6
+7        5        1
+7        8        4
+
+NOTE: Metrics updated because new compute time is better than previous best.
+===== TOURNAMENT METRICS FOR 10 PLAYERS =====
+Computation Time: 300.24 seconds
+Objective Value: 6.00000
+
+----- FAIRNESS SUMMARY -----
+Maximum Consecutive Sequences: 2
+Home Distribution Fairness (max diff in home games): 1
+
+No player has 3+ consecutive home or away games - good alternation!
+
+----- PLAYER METRICS -----
+Player   Home Games   Away Games   Pattern    Consecutive 
+------------------------------------------------------
+1        5            4            HAHAHAHAH  0           
+2        4            5            HAHAAHAHA  1           
+3        5            4            HAHHAHAAH  2           
+4        5            4            AHAHHAHHA  2           
+5        4            5            AHAHAHAAH  1           
+6        4            5            AHAHAHAHA  0           
+7        4            5            AHAAHAHAH  1           
+8        5            4            HAAHAHHAH  2           
+9        5            4            HAHAHAHHA  1           
+10       4            5            AHHAHAAHA  2           
+
+----- TOURNAMENT SCHEDULE -----
+Round    Home     Away    
+------------------------
+1        1        7       
+1        2        4       
+1        3        6       
+1        8        5       
+1        9        10      
+2        4        1       
+2        5        3       
+2        6        9       
+2        7        8       
+2        10       2       
+3        1        5       
+3        2        6       
+3        3        8       
+3        9        7       
+3        10       4       
+4        3        1       
+4        4        9       
+4        5        10      
+4        6        7       
+4        8        2       
+5        1        2       
+5        4        8       
+5        7        3       
+5        9        5       
+5        10       6       
+6        2        9       
+6        3        10      
+6        5        7       
+6        6        4       
+6        8        1       
+7        1        10      
+7        4        5       
+7        7        2       
+7        8        6       
+7        9        3       
+8        2        3       
+8        4        7       
+8        6        5       
+8        9        1       
+8        10       8       
+9        1        6       
+9        3        4       
+9        5        2       
+9        7        10      
+9        8        9       
+
+NOTE: Metrics updated because new compute time is better than previous best.
