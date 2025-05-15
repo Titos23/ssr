@@ -160,7 +160,7 @@ def solve_fair_tournament_scheduling(n_players, w1=1.0, w2=1.0, w3=1.0):
     model += w1 * delta_opp + w2 * delta_breaks + w3 * delta_home
     
     # Solve the model
-    model.solve(pulp.PULP_CBC_CMD(msg=False, timeLimit=300))
+    model.solve(pulp.PULP_CBC_CMD(msg=True, timeLimit=300))
     
     # Calculate computation time and get objective value
     compute_time = time.time() - start_time

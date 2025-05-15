@@ -9,22 +9,22 @@ Home Distribution Fairness (max diff in home games): 1
 No player has 3+ consecutive home or away games - good alternation!
 
 ----- PLAYER METRICS -----
-Player   Home Games   Away Games   Pattern Consecutive 
+Player   Home Games   Away Games   Pattern Consecutive
 ------------------------------------------------
-1        1            2            HAA  1           
-2        2            1            HAH  0           
-3        1            2            AHA  0           
-4        2            1            AHH  1           
+1        1            2            HAA  1
+2        2            1            HAH  0
+3        1            2            AHA  0
+4        2            1            AHH  1
 
 ----- TOURNAMENT SCHEDULE -----
-Round    Home     Away    
+Round    Home     Away
 ------------------------
-1        1        3       
-1        2        4       
-2        3        2       
-2        4        1       
-3        2        1       
-3        4        3       
+1        1        3
+1        2        4
+2        3        2
+2        4        1
+3        2        1
+3        4        3
 
 NOTE: Metrics updated because new compute time is better than previous best.
 
@@ -195,5 +195,818 @@ Round    Home     Away
 9        5        2
 9        7        10
 9        8        9
+
+NOTE: Metrics updated because new compute time is better than previous best.
+===== TOURNAMENT METRICS FOR 12 PLAYERS =====
+Computation Time: 300.08 seconds
+Objective Value: 6.50000
+
+----- FAIRNESS SUMMARY -----
+Maximum Consecutive Sequences: 1
+Home Distribution Fairness (max diff in home games): 1
+
+No player has 3+ consecutive home or away games - good alternation!
+
+----- PLAYER METRICS -----
+Player   Home Games   Away Games   Pattern      Consecutive
+--------------------------------------------------------
+1        6            5            HAHAHAHAHHA  1
+2        5            6            AHAHAAHAHAH  1
+3        6            5            HAHHAHAHAHA  1
+4        5            6            HAHAHAAHAHA  1
+5        6            5            HAHAHHAHAHA  1
+6        6            5            AHHAHAHAHAH  1
+7        5            6            HAHAHAHAHAA  1
+8        5            6            HAAHAHAHAHA  1
+9        6            5            AHAHAHHAHAH  1
+10       5            6            AHAAHAHAHAH  1
+11       5            6            AHAHAHAHAAH  1
+12       6            5            AHAHAHAHAHH  1
+
+----- TOURNAMENT SCHEDULE -----
+Round    Home     Away
+------------------------
+1        1        6
+1        3        12
+1        4        9
+1        5        2
+1        7        10
+1        8        11
+2        2        1
+2        6        7
+2        9        8
+2        10       3
+2        11       4
+2        12       5
+3        1        9
+3        3        8
+3        4        12
+3        5        11
+3        6        10
+3        7        2
+4        2        10
+4        3        5
+4        8        4
+4        9        6
+4        11       7
+4        12       1
+5        1        11
+5        4        3
+5        5        8
+5        6        2
+5        7        12
+5        10       9
+6        3        7
+6        5        4
+6        8        1
+6        9        2
+6        11       10
+6        12       6
+7        1        4
+7        2        8
+7        6        11
+7        7        5
+7        9        3
+7        10       12
+8        3        6
+8        4        10
+8        5        1
+8        8        7
+8        11       2
+8        12       9
+9        1        3
+9        2        12
+9        6        8
+9        7        4
+9        9        11
+9        10       5
+10       1        7
+10       3        2
+10       4        6
+10       5        9
+10       8        10
+10       12       11
+11       2        4
+11       6        5
+11       9        7
+11       10       1
+11       11       3
+11       12       8
+
+NOTE: Metrics updated because new compute time is better than previous best.
+===== TOURNAMENT METRICS FOR 14 PLAYERS =====
+Computation Time: 300.39 seconds
+Objective Value: 10.50000
+
+----- FAIRNESS SUMMARY -----
+Maximum Consecutive Sequences: 5
+Home Distribution Fairness (max diff in home games): 1
+
+Players with 3+ consecutive home or away games:
+  Player 1: HAHHHHAAAHAHA
+  Player 4: AAHAAHHHAHAHH
+  Player 6: HAHHHAHAHAAHA
+  Player 7: HHAHHAHAAAHAH
+  Player 8: HAAAHAHHHHAHA
+  Player 10: AHAHAHAAHHHAH
+  Player 12: AAHAAAHHHAHAH
+  Player 13: HAHAHAHAHHAAA
+
+----- PLAYER METRICS -----
+Player   Home Games   Away Games   Pattern        Consecutive
+----------------------------------------------------------
+1        7            6            HAHHHHAAAHAHA  5
+2        6            7            AHAHAHAHAAHHA  2
+3        6            7            AHAHAHHAAHAHA  2
+4        7            6            AAHAAHHHAHAHH  5
+5        6            7            HHAAHAAHAHAHA  3
+6        7            6            HAHHHAHAHAAHA  3
+7        7            6            HHAHHAHAAAHAH  4
+8        7            6            HAAAHAHHHHAHA  5
+9        7            6            HAHAHAAHHAHAH  2
+10       7            6            AHAHAHAAHHHAH  3
+11       6            7            AHAHAHAHAAHAH  1
+12       6            7            AAHAAAHHHAHAH  5
+13       6            7            HAHAHAHAHHAAA  3
+14       6            7            AHHAAHAAHAHAH  3
+
+----- TOURNAMENT SCHEDULE -----
+Round    Home     Away
+------------------------
+1        1        14
+1        5        10
+1        6        2
+1        7        12
+1        8        11
+1        9        3
+1        13       4
+2        2        8
+2        3        6
+2        5        1
+2        7        13
+2        10       9
+2        11       4
+2        14       12
+3        1        3
+3        4        5
+3        6        11
+3        9        7
+3        12       10
+3        13       2
+3        14       8
+4        1        13
+4        2        9
+4        3        4
+4        6        12
+4        7        8
+4        10       14
+4        11       5
+5        1        2
+5        5        3
+5        6        14
+5        7        11
+5        8        4
+5        9        12
+5        13       10
+6        1        8
+6        2        5
+6        3        13
+6        4        12
+6        10       6
+6        11       9
+6        14       7
+7        3        10
+7        4        9
+7        6        1
+7        7        2
+7        8        5
+7        12       11
+7        13       14
+8        2        3
+8        4        7
+8        5        6
+8        8        13
+8        9        14
+8        11       10
+8        12       1
+9        6        4
+9        8        3
+9        9        1
+9        10       7
+9        12       2
+9        13       5
+9        14       11
+10       1        11
+10       3        7
+10       4        14
+10       5        12
+10       8        6
+10       10       2
+10       13       9
+11       2        4
+11       7        6
+11       9        8
+11       10       1
+11       11       13
+11       12       3
+11       14       5
+12       1        7
+12       2        14
+12       3        11
+12       4        10
+12       5        9
+12       6        13
+12       8        12
+13       4        1
+13       7        5
+13       9        6
+13       10       8
+13       11       2
+13       12       13
+13       14       3
+
+NOTE: Metrics updated because new compute time is better than previous best.
+===== TOURNAMENT METRICS FOR 16 PLAYERS =====
+Computation Time: 300.03 seconds
+Objective Value: 11.00000
+
+----- FAIRNESS SUMMARY -----
+Maximum Consecutive Sequences: 4
+Home Distribution Fairness (max diff in home games): 1
+
+Players with 3+ consecutive home or away games:
+  Player 4: HAHAHAHAHAHAAAH
+  Player 7: AHHAHAHAHHHAAHA
+  Player 11: AHAHAHAHAHAHHHA
+  Player 12: HHAAHAHAHAAAHAH
+
+----- PLAYER METRICS -----
+Player   Home Games   Away Games   Pattern          Consecutive
+------------------------------------------------------------
+1        8            7            HAHAHHAHAHAHAHA  1
+2        7            8            AHAHAHAHAHAAHAH  1
+3        8            7            AHAHAHAHAHAHHAH  1
+4        7            8            HAHAHAHAHAHAAAH  2
+5        8            7            HAHAHAHAHAHHAHA  1
+6        7            8            AHAHAAHAHAHAHAH  1
+7        8            7            AHHAHAHAHHHAAHA  4
+8        8            7            AHAHAHAHHAHAHAH  1
+9        7            8            HAHAAHAHAAHAHAH  2
+10       8            7            HAAHAHHAHAHHAHA  3
+11       8            7            AHAHAHAHAHAHHHA  2
+12       7            8            HHAAHAHAHAAAHAH  4
+13       7            8            HAHAHAHAAHAHAHA  1
+14       7            8            AHAHHAAHAHAHAHA  2
+15       7            8            AAHHAHAHAHAHAHA  2
+16       8            7            HAHAHAHAHAHAHAH  0
+
+----- TOURNAMENT SCHEDULE -----
+Round    Home     Away
+------------------------
+1        1        15
+1        4        6
+1        5        7
+1        9        8
+1        10       3
+1        12       2
+1        13       11
+1        16       14
+2        2        15
+2        3        4
+2        6        16
+2        7        9
+2        8        13
+2        11       1
+2        12       5
+2        14       10
+3        1        2
+3        4        12
+3        5        14
+3        7        8
+3        9        6
+3        13       3
+3        15       11
+3        16       10
+4        2        7
+4        3        9
+4        6        12
+4        8        4
+4        10       13
+4        11       16
+4        14       1
+4        15       5
+5        1        8
+5        4        10
+5        5        9
+5        7        6
+5        12       11
+5        13       2
+5        14       15
+5        16       3
+6        1        7
+6        2        4
+6        3        14
+6        8        12
+6        9        16
+6        10       5
+6        11       6
+6        15       13
+7        4        14
+7        5        11
+7        6        2
+7        7        3
+7        10       15
+7        12       9
+7        13       1
+7        16       8
+8        1        10
+8        2        16
+8        3        5
+8        8        6
+8        9        4
+8        11       7
+8        14       13
+8        15       12
+9        4        11
+9        5        2
+9        6        15
+9        7        13
+9        8        3
+9        10       9
+9        12       14
+9        16       1
+10       1        5
+10       2        8
+10       3        12
+10       7        10
+10       11       9
+10       13       16
+10       14       6
+10       15       4
+11       4        1
+11       5        13
+11       6        3
+11       7        14
+11       8        15
+11       9        2
+11       10       11
+11       16       12
+12       1        12
+12       3        2
+12       5        16
+12       10       6
+12       11       8
+12       13       4
+12       14       9
+12       15       7
+13       2        10
+13       3        1
+13       6        13
+13       8        5
+13       9        15
+13       11       14
+13       12       7
+13       16       4
+14       1        9
+14       5        6
+14       7        4
+14       10       8
+14       11       3
+14       13       12
+14       14       2
+14       15       16
+15       2        11
+15       3        15
+15       4        5
+15       6        1
+15       8        14
+15       9        13
+15       12       10
+15       16       7
+
+NOTE: Metrics updated because new compute time is better than previous best.
+===== TOURNAMENT METRICS FOR 18 PLAYERS =====
+Computation Time: 300.09 seconds
+Objective Value: 11.00000
+
+----- FAIRNESS SUMMARY -----
+Maximum Consecutive Sequences: 4
+Home Distribution Fairness (max diff in home games): 1
+
+Players with 3+ consecutive home or away games:
+  Player 1: AHAHHAAAHAHAHAHAH
+
+----- PLAYER METRICS -----
+Player   Home Games   Away Games   Pattern            Consecutive
+--------------------------------------------------------------
+1        8            9            AHAHHAAAHAHAHAHAH  3
+2        8            9            AHHAAHAHAHAHHAHAA  4
+3        9            8            AHAHAHAHHAHAHAHAH  1
+4        8            9            AHAHHAAHAHAHAAHAH  3
+5        9            8            HAHAAHHAHAHAAHAHH  4
+6        9            8            HAHAHAHAHAHAHHAHA  1
+7        8            9            HAHAHAHAHAHAHAHAA  1
+8        8            9            AHAHAHHAAHAHAHAHA  2
+9        8            9            HAAHAHAHAHAHAHAHA  1
+10       8            9            AHAHAHAHAHAAHAHAH  1
+11       9            8            HAHHAHAHAHAHAHAHA  1
+12       9            8            HAHAHAHHAHAHAAHAH  2
+13       8            9            AHAHAHAHAHAHAHAHA  0
+14       9            8            AHAHAHAAHAHAHHAHH  3
+15       9            8            HAHAHAHAHAHAHAHAH  0
+16       9            8            HAHAHAHHAAHAHAHAH  2
+17       8            9            AHAAHAHAHHAHAHAHA  2
+18       9            8            HAHAHAHAHAHHAHAHA  1
+
+----- TOURNAMENT SCHEDULE -----
+Round    Home     Away
+------------------------
+1        5        14
+1        6        17
+1        7        4
+1        9        13
+1        11       8
+1        12       10
+1        15       3
+1        16       1
+1        18       2
+2        1        15
+2        2        16
+2        3        5
+2        4        12
+2        8        6
+2        10       18
+2        13       11
+2        14       7
+2        17       9
+3        2        8
+3        5        10
+3        6        1
+3        7        3
+3        11       9
+3        12       13
+3        15       4
+3        16       14
+3        18       17
+4        1        7
+4        3        12
+4        4        17
+4        8        16
+4        9        5
+4        10       2
+4        11       6
+4        13       18
+4        14       15
+5        1        5
+5        4        11
+5        6        3
+5        7        10
+5        12       2
+5        15       9
+5        16       13
+5        17       8
+5        18       14
+6        2        1
+6        3        16
+6        5        4
+6        8        7
+6        9        18
+6        10       6
+6        11       12
+6        13       15
+6        14       17
+7        5        11
+7        6        14
+7        7        9
+7        8        13
+7        12       1
+7        15       10
+7        16       4
+7        17       2
+7        18       3
+8        2        15
+8        3        1
+8        4        18
+8        9        8
+8        10       14
+8        11       17
+8        12       5
+8        13       6
+8        16       7
+9        1        8
+9        3        10
+9        5        2
+9        6        9
+9        7        11
+9        14       4
+9        15       16
+9        17       13
+9        18       12
+10       2        6
+10       4        3
+10       8        18
+10       9        14
+10       10       1
+10       11       15
+10       12       16
+10       13       5
+10       17       7
+11       1        17
+11       3        9
+11       5        8
+11       6        4
+11       7        2
+11       14       13
+11       15       12
+11       16       10
+11       18       11
+12       2        3
+12       4        1
+12       8        15
+12       9        10
+12       11       16
+12       12       14
+12       13       7
+12       17       5
+12       18       6
+13       1        11
+13       2        9
+13       3        13
+13       6        5
+13       7        12
+13       10       4
+13       14       8
+13       15       18
+13       16       17
+14       5        7
+14       6        15
+14       8        4
+14       9        16
+14       11       2
+14       13       10
+14       14       3
+14       17       12
+14       18       1
+15       1        14
+15       2        13
+15       3        17
+15       4        9
+15       7        6
+15       10       11
+15       12       8
+15       15       5
+15       16       18
+16       5        16
+16       6        12
+16       8        10
+16       9        1
+16       11       3
+16       13       4
+16       14       2
+16       17       15
+16       18       7
+17       1        13
+17       3        8
+17       4        2
+17       5        18
+17       10       17
+17       12       9
+17       14       11
+17       15       7
+17       16       6
+
+NOTE: Metrics updated because new compute time is better than previous best.
+===== TOURNAMENT METRICS FOR 20 PLAYERS =====
+Computation Time: 300.03 seconds
+Objective Value: 13.00000
+
+----- FAIRNESS SUMMARY -----
+Maximum Consecutive Sequences: 4
+Home Distribution Fairness (max diff in home games): 1
+
+Players with 3+ consecutive home or away games:
+  Player 8: AHHHAHAHAAHAHHAHAHA
+  Player 9: HAHAHAAHHHAAHAHAHAH
+  Player 10: HAHAHAHAAHHHAAHAHAH
+  Player 12: HAAAHAHAHAHHAHAHAHA
+  Player 14: HAHAHAAAHAHAHAHAHAH
+
+----- PLAYER METRICS -----
+Player   Home Games   Away Games   Pattern              Consecutive 
+----------------------------------------------------------------
+1        9            10           AHAHAHAHAHAHAHAHAHA  0           
+2        10           9            AHAHAHAHHAHAHAHAHAH  1           
+3        9            10           AHAHHAAHAHAHAAHAHHA  4           
+4        10           9            HAHAHAHHAHHAHAAHAHA  3           
+5        10           9            HAHAHHAHHAAHAHAHAHA  3           
+6        9            10           AHAHAHHAAHAHAHAHAHA  2           
+7        9            10           AHAHAHAHAHAAHHAHAHA  2           
+8        10           9            AHHHAHAHAAHAHHAHAHA  4           
+9        10           9            HAHAHAAHHHAAHAHAHAH  4           
+10       10           9            HAHAHAHAAHHHAAHAHAH  4           
+11       10           9            AHAHAHAHAHAHAHHAHAH  1           
+12       9            10           HAAAHAHAHAHHAHAHAHA  3           
+13       9            10           HAHAHAHAAHAHAHAHAHA  1           
+14       9            10           HAHAHAAAHAHAHAHAHAH  2           
+15       9            10           HAHAAHHAHAHAHAHAAHA  3           
+16       9            10           HAHAHAHAHAHAHAAHAAH  2           
+17       9            10           AHAHAAHAHAHAHAHAHAH  1           
+18       10           9            AHAHAHAHAHAHAHAHHAH  1           
+19       10           9            HAHAHAHAHAAHAHHAHAH  2           
+20       10           9            AHAHAHHAHAHAHAHAHAH  1           
+
+----- TOURNAMENT SCHEDULE -----
+Round    Home     Away    
+------------------------
+1        4        18      
+1        5        8       
+1        9        7       
+1        10       2       
+1        12       1       
+1        13       6       
+1        14       11      
+1        15       3       
+1        16       17      
+1        19       20      
+2        1        19      
+2        2        14      
+2        3        5       
+2        6        4       
+2        7        16      
+2        8        13      
+2        11       12      
+2        17       15      
+2        18       9       
+2        20       10      
+3        4        17      
+3        5        11      
+3        8        3       
+3        9        20      
+3        10       7       
+3        13       1       
+3        14       12      
+3        15       2       
+3        16       18      
+3        19       6       
+4        1        15      
+4        2        9       
+4        3        10      
+4        6        12      
+4        7        4       
+4        8        19      
+4        11       13      
+4        17       14      
+4        18       5       
+4        20       16      
+5        3        1       
+5        4        11      
+5        5        6       
+5        9        15      
+5        10       18      
+5        12       8       
+5        13       7       
+5        14       20      
+5        16       2       
+5        19       17      
+6        1        14      
+6        2        4       
+6        5        13      
+6        6        10      
+6        7        12      
+6        8        9       
+6        11       19      
+6        15       16      
+6        18       3       
+6        20       17      
+7        4        8       
+7        6        7       
+7        10       14      
+7        12       5       
+7        13       18      
+7        15       11      
+7        16       1       
+7        17       9       
+7        19       3       
+7        20       2       
+8        1        6       
+8        2        17      
+8        3        13      
+8        4        15      
+8        5        16      
+8        7        19      
+8        8        20      
+8        9        12      
+8        11       10      
+8        18       14      
+9        2        3       
+9        5        1       
+9        9        6       
+9        12       4       
+9        14       8       
+9        15       18      
+9        16       11      
+9        17       13      
+9        19       10      
+9        20       7       
+10       1        20      
+10       3        17      
+10       4        16      
+10       6        15      
+10       7        8       
+10       9        14      
+10       10       5       
+10       11       2       
+10       13       19      
+10       18       12      
+11       2        19      
+11       4        1       
+11       8        18      
+11       10       9       
+11       12       13      
+11       14       6       
+11       15       7       
+11       16       3       
+11       17       11      
+11       20       5       
+12       1        7       
+12       3        9       
+12       5        4       
+12       6        8       
+12       10       15      
+12       11       20      
+12       12       2       
+12       13       14      
+12       18       17      
+12       19       16      
+13       2        18      
+13       4        3       
+13       7        5       
+13       8        1       
+13       9        11      
+13       14       19      
+13       15       12      
+13       16       13      
+13       17       10      
+13       20       6       
+14       1        2       
+14       5        15      
+14       6        16      
+14       7        14      
+14       8        17      
+14       11       3       
+14       12       10      
+14       13       4       
+14       18       20      
+14       19       9       
+15       2        7       
+15       3        6       
+15       9        1       
+15       10       13      
+15       11       18      
+15       14       16      
+15       15       8       
+15       17       5       
+15       19       12      
+15       20       4       
+16       1        17      
+16       4        14      
+16       5        9       
+16       6        2       
+16       7        3       
+16       8        11      
+16       12       20      
+16       13       15      
+16       16       10      
+16       18       19      
+17       2        13      
+17       3        12      
+17       9        16      
+17       10       8       
+17       11       6       
+17       14       5       
+17       17       7       
+17       18       1       
+17       19       4       
+17       20       15      
+18       1        11      
+18       3        20      
+18       4        10      
+18       5        19      
+18       6        17      
+18       7        18      
+18       8        2       
+18       12       16      
+18       13       9       
+18       15       14      
+19       2        5       
+19       9        4       
+19       10       1       
+19       11       7       
+19       14       3       
+19       16       8       
+19       17       12      
+19       18       6       
+19       19       15      
+19       20       13      
 
 NOTE: Metrics updated because new compute time is better than previous best.
